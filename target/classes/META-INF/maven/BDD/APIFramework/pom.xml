@@ -45,12 +45,13 @@
 	    <version>2.17.1</version>
 	</dependency>
 	
-		<!-- https://mvnrepository.com/artifact/org.apache.groovy/groovy -->
+	<!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
 	<dependency>
-	    <groupId>org.apache.groovy</groupId>
+	    <groupId>org.codehaus.groovy</groupId>
 	    <artifactId>groovy</artifactId>
-	    <version>5.0.0-alpha-8</version>
+	    <version>3.0.21</version>
 	</dependency>
+
 
 
   </dependencies>

@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 17 Jun 2024 04:57:44 GMT
+Date: Mon, 17 Jun 2024 15:48:00 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,13 +40,51 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "75a337d2b6d9a26e22169686ded00a4d",
+    "place_id": "0ee8ccb8205fbea95627d532787c32ee",
     "scope": "APP",
-    "reference": "aefdc5e803e70f8c4d389fb5f183fd59aefdc5e803e70f8c4d389fb5f183fd59",
-    "id": "aefdc5e803e70f8c4d389fb5f183fd59"
+    "reference": "1413c4c5a5ddba16313b1e3444906c101413c4c5a5ddba16313b1e3444906c10",
+    "id": "1413c4c5a5ddba16313b1e3444906c10"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0ee8ccb8205fbea95627d532787c32ee
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=0ee8ccb8205fbea95627d532787c32ee
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 17 Jun 2024 15:48:01 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 225
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-30.444",
+        "longitude": "30.4444"
+    },
+    "accuracy": "50",
+    "name": "Sa aming bahay",
+    "phone_number": "093312344 imy",
+    "address": "sa Binondo",
+    "types": "shab*,tindahan",
+    "website": "www.po**hub.com",
+    "language": "English"
 }
 Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
@@ -58,37 +96,20 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 50,
-    "name": "Diwata Pares",
-    "phone_number": "093312344 imy",
-    "address": "sa gilid ng pasay",
-    "website": "www.po**hub.com",
-    "language": "Bisaya",
-    "location": {
-        "lat": -30.444,
-        "lng": 30.4444
-    },
-    "types": [
-        "shab*",
-        "tindahan"
-    ]
+    "place_id": "0ee8ccb8205fbea95627d532787c32ee"
 }
 HTTP/1.1 200 OK
-Date: Mon, 17 Jun 2024 04:57:45 GMT
+Date: Mon, 17 Jun 2024 15:48:03 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
+Content-Length: 15
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 {
-    "status": "OK",
-    "place_id": "c558a90de293d2514436044ec412cde2",
-    "scope": "APP",
-    "reference": "a5aae2c2caf86407f3f4b2943a91e7e2a5aae2c2caf86407f3f4b2943a91e7e2",
-    "id": "a5aae2c2caf86407f3f4b2943a91e7e2"
+    "status": "OK"
 }
