@@ -1,4 +1,4 @@
-Hello
+Hello There My Friend
 
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
